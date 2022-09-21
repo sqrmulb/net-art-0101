@@ -1,0 +1,79 @@
+body,html{
+    height:100%;
+    margin:0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5em;
+}
+
+.bg{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.bg{
+    background-image: url(images/human-1.png);
+    height:100%;
+}
+
+@keyframes effect {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+    25%,
+    75% {
+      opacity: 0;
+    }
+}
+
+.caption{
+    position: absolute;
+    text-align:end;
+    right: 0%;
+    top: 35%;
+    width: 100%;
+    color:white;
+    animation-name: effect;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+
+@media screen and (max-width:1300px) {
+    .bg{
+        background-image: url(images/human-2.png);
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .bg{
+        background-image: url(images/human-3.png);
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .bg{
+        background-image: url(images/human-4.png);
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .bg{
+        background-image: url(images/human-5.png);
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .bg{
+        background-image: url(images/glitchy.jpg);
+        height: 100%;
+    }
+}
