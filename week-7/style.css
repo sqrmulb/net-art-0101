@@ -67,13 +67,13 @@ form {
 }
 
 .flier > * {
-        animation: fly 50s linear infinite;
+        animation: fly 20s linear infinite;
         pointer-events: none !important;
 	top: 0;
 	left: 0;
 	transform: translateX(-120%) translateY(-120%) rotateZ(0);
 	position: fixed;
-	animation-delay: 1s;
+	animation-delay: 0.5s;
 	z-index: 999999;
 }
 
